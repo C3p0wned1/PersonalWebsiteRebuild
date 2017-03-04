@@ -1,0 +1,187 @@
+/*
+Bennett, Josiah
+JosiahBennett.com
+2/7/2017
+
+Stylesheet created specifically for JosiahBennett.com webpage.
+*/
+
+
+/****************
+GENERAL
+****************/
+body{
+color:white;
+	
+}
+
+#wrapper{
+	max-width: 1000px;
+	background:#003E7E;
+    margin: 2% 2% 0 2%;
+    padding: 2% 2% 2% 2%;
+	min-height: 1000px;
+    border: 25px;
+    border-color:#AFAFAF;
+    border-style: solid;
+
+}
+
+#mainpagephoto{
+
+    width:45%;
+    border-radius: 80%;
+    border:10px;
+	border-color:gold;
+	border-style:inset;
+}
+
+#JosiahandPanther{
+    
+    border-radius: 360px;
+}
+
+#footerText{
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    border:medium;
+    border-color: white;
+    border-style:solid;
+    margin-top:3em
+    max-width:100%;
+    
+}
+
+#Banner{
+    width: 100%;
+    border:medium;
+	border-color:gold;
+	border-style:inset;
+	border-radius:25px;
+    margin-bottom:1em;
+}
+
+a{
+	color:#003E7E;
+	
+}
+
+header{
+	background:#003E7E;
+	max-width:1000px;
+}
+
+
+
+/*****************************************************
+My Projects Page Formatting
+*****************************************************/
+
+.ProjectsTable{
+	
+	padding-bottom:10px;
+	text-align:center;
+	color:white;
+
+}
+
+.ProjectsTable td{
+color:white;
+width:640px;
+text-align:justify;
+padding-top:25px;
+padding-bottom:25px;
+	
+}
+
+.ProjectsTable tr{
+	color:white;
+
+}
+
+#ProjectPictures{
+	padding-bottom:5px;
+    width:100%;
+}
+
+/*****************************************************
+Resume Page Formatting
+*****************************************************/
+
+#resume{
+	width:95%;
+    margin-top:2.5em;
+}
+
+.resumedownload{
+    
+    margin:2%;
+}
+
+/*****************************************************
+Photography Page Formatting
+*****************************************************/
+
+#FlickrSlideshow{
+	margin-top:2em;
+	margin-bottom:2em;
+
+}
+
+/*****************************************************
+Contact Me Page Formatting
+*****************************************************/
+.contactmetable{
+	padding:10px;
+}
+
+.contactmetable td{
+	padding:15px;
+	float:left;
+	table-layout:auto;
+}
+
+/*****************************************************
+Navigation
+*****************************************************/
+
+nav{
+	text-align: center;
+	padding:0.3em;
+	margin 25px 0 0;
+	max-width:1000px;
+	background:#9a8858;
+	height: 2em;
+	border:medium;
+	border-color:gold;
+	border-style:inset;
+	border-radius:25px;
+}
+
+nav ul{	
+list-style: none;
+}
+
+nav ul li{
+	
+	float:left;
+	max-width:1000px;
+	padding-left:5.6em;
+	
+}
+
+nav ul li a:hover{
+	
+	color: #FFFFFF;
+}
+
+#menuBanner{
+	
+	background:#003E7E;
+    max-width: 1000px;
+    padding: 5px 0 5px 0;
+	
+}
+
+/*End Stylesheet Formatting*/

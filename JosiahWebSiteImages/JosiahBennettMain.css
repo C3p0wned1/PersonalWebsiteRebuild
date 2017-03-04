@@ -1,0 +1,187 @@
+﻿/*
+Bennett, Josiah
+JosiahBennett.com
+9/1/2014
+
+Stylesheet created specifically for JosiahBennett.com webpage.
+*/
+
+
+/*Default setup*/
+*{
+	
+	margin:0px;
+	padding:0px;
+	background-color:#003E7E;
+}
+
+
+/*Header Banner Formatting*/
+#Banner{
+	width:1000px;
+	height:200px;
+	border:thick;
+	border-style:ridge;
+	border-radius:25px;
+	border-color:#6666FF;
+	margin-top:20px;
+		
+}
+
+/*Navigational Bar Setup*/
+nav.horizontal{
+	width:1000px;
+	height:30px;
+	display:block;
+	background-color:#9a8858;
+	border:medium;
+	border-color:gold;
+	border-style:inset;
+	border-radius:25px;
+	margin-top:5px;
+	margin-bottom:25px;
+	padding:5px;
+	
+	
+}
+
+nav.horizontal ul{
+	width:1000px;
+	display:block;
+	list-style-type:none;
+	background-color:#9a8858;
+}
+
+nav.horizontal ul li{
+	display:block;
+	float:left;
+	width:160px;
+	text-align:center;
+	background-color:#9a8858;
+	color:white;
+	padding-left:5px;
+	
+}
+
+nav li a{
+	text-decoration:none;
+	background-color:#9a8858;
+	color:white;
+}
+
+footer{
+	font-size:10px;
+	text-align:center;
+	line-height:20px;
+	border:thin white solid;
+	clear:both;
+	width:1000px;
+}
+
+
+/*Primary Page Div*/
+#BodyDiv{
+	background-color:white;
+	border:3px;
+	border-style:solid;
+	border-color:#9a8858;
+	width:1000px;
+}
+
+/*Main Page Formatting*/
+#mainpagephoto{
+	border-radius:80px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#mainpageparagraph{
+	text-align:left;
+	margin-left:25px;
+	margin-right:25px;
+}
+
+/*About Me Page Formatting*/
+
+#JosiahandPanther{
+	padding:10px;
+	border-radius:60px;
+}
+
+#AboutMeParagraph{
+	padding:5px;
+	line-height:25px;
+	margin-left:15px;
+	margin-right:15px;
+	text-align:left;
+}
+
+
+/*My Photography Page*/
+iframe{
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	padding-top:30px;
+	
+}
+
+.thumbnails{
+	padding-left:15px;
+}
+
+/*Contact Me Page Formatting*/
+.contactmetable{
+	padding:10px;
+}
+
+.contactmetable td{
+	padding:15px;
+	float:left;
+	table-layout:auto;
+}
+
+/*My Projects Page Formatting*/
+.ProjectsTable{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	color:white;
+
+}
+
+.ProjectsTable td{
+color:white;
+width:640px;
+text-align:justify;
+padding-top:25px;
+padding-bottom:25px;
+	
+}
+
+.ProjectsTable tr{
+	color:white;
+
+}
+
+#ProjectPictures{
+	padding-bottom:5px;
+}
+
+/*End My Projects Page Formatting*/
+
+
+h1{
+	color:white;
+}
+
+h2{
+	color:white;
+}
+
+p{
+	color:white;
+}
+
+/*End Stylesheet Formatting*/
