@@ -1,0 +1,439 @@
+/*
+Bennett, Josiah
+JosiahBennett.com
+2/7/2017
+
+Stylesheet created specifically for JosiahBennett.com webpage.
+*/
+
+
+/****************
+GENERAL
+****************/
+
+body {
+	color: white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-image: url(JosiahWebSiteImages/bradfordcomesaliveatnight.png);
+	background-size: cover;
+	background-position: center;
+}
+
+#menuBanner {
+	background: #003E7E;
+	max-width: 1000px;
+	padding: 5px 0 5px 0;
+}
+
+
+/****************************************************
+MEDIA QUERIES
+****************************************************/
+
+
+/****************************************************
+Cell Phone Media Query
+****************************************************/
+
+@media (max-width:650px) {
+	nav {
+		background: none;
+		border: none;
+		margin: .5em .5em 7% .5em;
+		text-align: center;
+	}
+	nav ul {
+		list-style: none;
+	}
+	nav ul li {
+		width: 100%;
+		margin: .5em auto;
+		background-color: silver;
+		border: gold 1px solid;
+	}
+	nav ul li a {
+		color: white;
+	}
+	nav ul li a:hover {
+		color: #FFFFFF;
+	}
+	#wrapper {
+		max-width: 500px;
+		background: #003E7E;
+		margin: 0 2% 0 2%;
+		padding: 0 2% 2% 2%;
+		border: 25px;
+		border-color: #AFAFAF;
+		border-style: solid;
+	}
+	#mainpagephoto {
+		margin: 0 10% 1em 10%;
+		display: inline-block;
+		width: 75%;
+		border-radius: 2em;
+		border: 10px;
+		border-color: gold;
+		border-style: inset;
+	}
+	.parastyles {
+		margin: 2em 0 0 0;
+		text-align: justify;
+		padding: .2em;
+	}
+	.projectsPage {
+		text-align: center;
+	}
+	.headingstyles {
+		text-decoration: underline;
+		margin: 0 11% 0 11%;
+		text-align: center;
+		color: #FFF;
+	}
+	#JosiahandPanther {
+		width: 90%;
+		border-radius: 2em;
+		margin: 0 0 .5em 0;
+	}
+	#footerText {
+		font-style: italic;
+		font-size: 14px;
+		text-align: center;
+		border: medium;
+		border-color: white;
+		border-style: solid;
+		margin-top: 3em max-width: 100%;
+	}
+	#Banner {
+		width: 100%;
+		border: medium;
+		border-color: gold;
+		border-style: inset;
+		border-radius: 25px;
+		margin-bottom: 1em;
+	}
+	.ProjectsArticle {
+		text-align: center;
+		margin-bottom: 9%;
+	}
+	.ProjectPictures {
+		width: 100%;
+	}
+	.tableheadingstyles {
+		margin: 0;
+		text-align: center;
+		text-decoration: underline;
+	}
+	.resume {
+		width: 95%;
+		margin: .5em 2.5% 0 2.5%;
+		text-align: center;
+	}
+	#contactInfo {
+		width: 90%;
+		text-align: center;
+		margin: 1em 4% 1em 4%;
+		border: #FFF .2em solid;
+	}
+	.contactclass {
+		margin: 2em auto;
+	}
+}
+
+
+/****************************************************
+Tablet Media Query
+****************************************************/
+
+@media (min-width:651px) and (max-width: 900px) {
+	/****************************************************
+MAIN PAGE STYLE WRAPPER
+****************************************************/
+	#wrapper {
+		width: 90%;
+		background: #003E7E;
+		margin: 2% 3% 0 3%;
+		padding: 2% 2% 2% 2%;
+		border: #AFAFAF .2em solid;
+	}
+	/****************************************************
+IMAGES
+****************************************************/
+	#mainpagephoto {
+		margin: 0 19% 1em 19%;
+		display: inline-block;
+		width: 56%;
+		border-radius: 2em;
+		border: 10px;
+		border-color: gold;
+		border-style: inset;
+	}
+	#JosiahandPanther {
+		width: 50%;
+		border-radius: 2em;
+		margin: 0 0 .5em 0;
+	}
+	#ProjectPictures {
+		width: 100%;
+	}
+	.ProjectPictures {
+		width: 50%;
+		margin: 0 25% 0 25%;
+	}
+	.ProjectsArticle {
+		text-align: center;
+		margin-bottom: 9%;
+	}
+	.resume {
+		width: 95%;
+		margin: .5em 2.5% 0 2.5%;
+		text-align: center;
+	}
+	#Banner {
+		width: 100%;
+		border: medium;
+		border-color: gold;
+		border-style: inset;
+		border-radius: 25px;
+		margin-bottom: 1em;
+	}
+	/****************************************************
+NAV STYLING
+****************************************************/
+	nav {
+		width: 90%;
+		background: none;
+		border: none;
+		margin: 0 6.9% 7% 6.9%;
+		border: gold .3em inset;
+		border-radius: 25px;
+		padding: 0px;
+		height: 2em;
+	}
+	nav ul {
+		list-style: none;
+		margin: 0 4% 0 0;
+	}
+	nav ul li {
+		float: left;
+		display: inline;
+		width: 15%;
+		margin: .5em 0 .5em 1.3em;
+		background-color: silver;
+		border: gold 1px solid;
+	}
+	nav ul li a {
+		color: white;
+	}
+	nav ul li a:hover {
+		color: #FFFFFF;
+	}
+	/****************************************************
+TEXT STYLES
+****************************************************/
+	.parastyles {
+		margin: 2em 0 0 0;
+		text-align: justify;
+		padding: .2em;
+	}
+	.headingstyles {
+		text-decoration: underline;
+		margin: 0 11% 0 11%;
+		text-align: center;
+		color: #FFF;
+	}
+	.tableheadingstyles {
+		margin: 0;
+		text-align: center;
+		text-decoration: underline;
+	}
+	#footerText {
+		font-style: italic;
+		font-size: 14px;
+		text-align: center;
+		border: medium;
+		border-color: white;
+		border-style: solid;
+		margin-top: 3em max-width: 100%;
+	}
+	.ProjectsTable {
+		text-align: center;
+		color: white;
+		margin: 8em 0 0 0;
+	}
+	.projectsPage {
+		text-align: center;
+	}
+	/****************************************************
+PROJECT TABLE STYLES
+****************************************************/
+	.ProjectsTable {
+		text-align: center;
+		color: white;
+	}
+	.ProjectsTable td {
+		color: white;
+		width: 90%;
+		text-align: justify;
+		padding-top: 25px;
+	}
+	.ProjectsTable tr {
+		color: white;
+		margin: 5em 0 0 0;
+	}
+	/****************************************************
+CONTACT TABLE STYLES
+****************************************************/
+	#contactInfo {
+		width: 90%;
+		text-align: center;
+		margin: 1em 4% 1em 4%;
+		border: #FFF .2em solid;
+	}
+	.contactclass {
+		margin: 2em auto;
+	}
+}
+
+
+/****************************************************
+Desktop Media Query
+****************************************************/
+
+@media (min-width:901px) {
+	/****************************************************
+MAIN PAGE STYLE WRAPPER
+****************************************************/
+	#wrapper {
+		width: 75%;
+		background: #003E7E;
+		margin: 2% 10% 0 10%;
+		padding: 2% 2% 2% 2%;
+		border: #AFAFAF .2em solid;
+	}
+	/****************************************************
+NAV STYLING
+****************************************************/
+	nav {
+		width: 75%;
+		background: #9a8858;
+		border: none;
+		margin: 0 12.5% 7% 12.5%;
+		border: gold .3em inset;
+		border-radius: 25px;
+		padding: 0px;
+		height: 2em;
+	}
+	nav ul {
+		list-style: none;
+	}
+	nav ul li {
+		float: left;
+		display: inline;
+		width: 10%;
+		margin: .2em 4.5% .2em 4.5%;
+		text-align: center;
+	}
+	nav ul li a {
+		color: white;
+	}
+	nav ul li a:hover {
+		color: #FFFFFF;
+	}
+	/****************************************************
+IMAGES
+****************************************************/
+	#mainpagephoto {
+		margin: 0 33% 1em 33%;
+		display: inline-block;
+		width: 30%;
+		border-radius: 2em;
+		border: 10px;
+		border-color: gold;
+		border-style: inset;
+	}
+	#JosiahandPanther {
+		width: 30%;
+		border-radius: 2em;
+		margin: 0 0 .5em 0;
+	}
+	.resume {
+		width: 70%;
+		margin: .5em 16% 0 16%;
+		text-align: center;
+	}
+	#Banner {
+		width: 75%;
+		border: medium;
+		border-color: gold;
+		border-style: inset;
+		border-radius: 25px;
+		margin: 0 12.5% 1em 12.5%;
+	}
+	/****************************************************
+TEXT STYLES
+****************************************************/
+	.parastyles {
+		margin: 2em 0 0 0;
+		text-align: justify;
+		padding: .2em;
+	}
+	.headingstyles {
+		text-decoration: underline;
+		margin: 0 11% 0 11%;
+		text-align: center;
+		color: #FFF;
+	}
+	.tableheadingstyles {
+		margin: 0;
+		text-align: center;
+		text-decoration: underline;
+	}
+	#footerText {
+		font-style: italic;
+		font-size: 14px;
+		text-align: center;
+		border: medium;
+		border-color: white;
+		border-style: solid;
+		margin: 3em 15% 0 15%;
+		width: 70%;
+	}
+	.ProjectsArticle {
+		text-align: justify;
+		margin-bottom: 9%;
+	}
+	/****************************************************
+PROJECT TABLE STYLES
+****************************************************/
+	.ProjectPictures {
+		width: 50%;
+		margin: 0 25% 0 25%;
+	}
+	.projectsPage {
+		text-align: center;
+	}
+	/****************************************************
+CONTACT TABLE STYLES
+****************************************************/
+	#contactInfo {
+		width: 30%;
+		text-align: center;
+		margin: 1em 35% 1em 35%;
+		border: #FFF .2em solid;
+	}
+	.contactclass {
+		margin: 2em auto;
+	}
+}
+
+
+}
+
+/*End Stylesheet Formatting*/
